@@ -16,6 +16,9 @@
 				<tr>
 					<td><s:text name="numCompte"></s:text></td>
 					<td><s:text name="solde"></s:text></td>
+					<td><input type="text" name="montant" placeholder="entrez le montant..."></td>
+					<td><button type="button">Créditer</button></td>
+					<td><button type="button">Débiter</button></td>
 				</tr>
 			</s:iterator>
 		</table>
